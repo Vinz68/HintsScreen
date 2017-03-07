@@ -12,11 +12,11 @@ TimeInSec: For future use mainly. For now  -1 = Black Screen (no text) and 1 or 
 
 HintText : is the textual string which must be displayed. Use "%0c" to force a newline (see example)  
 
-#Example:
-   http://win10-pi3:8888/api/hint/1/Hint: Keep your eyes open when trying to solve the puzzle%0cPercent 0c is used for a newline%0cGood Luck !
+###Example:
+   http://win10-pi3:8888/api/hint/1/Hint: Keep your eyes open when trying to solve the puzzle%0cGood Luck !
 
 Response of the example (when successfull):
-{"TimeInSec":1,"HintText":"Hint: Keep your eyes open when trying to solve the puzzle\fPercent 0c is used for a newline\fGood Luck !"}
+{"TimeInSec":1,"HintText":"Hint: Keep your eyes open when trying to solve the puzzle\fGood Luck !"}
 
 The application is created to show a hint (textual help) for an escape room. 
 The project also contains a test program (Windows 10 UWP applicatie).
